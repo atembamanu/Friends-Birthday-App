@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">It\'s My Birthday</string>
+    <string-array name="myfamily_names">
+        <item>My Dad</item>
+        <item>My Brother</item>
+        <item>My Brother</item>
+        <item>My Mum</item>
+        <item>My Sister</item>
+        <item>Pheobe</item>
+        <item>Pheobe</item>
+    </string-array>
+</resources>

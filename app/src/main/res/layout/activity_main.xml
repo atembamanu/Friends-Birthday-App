@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="283dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-7dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/pheobe1" />
+
+    <LinearLayout
+        android:id="@+id/firstrow"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@color/colorAccent"
+            app:srcCompat="@drawable/family"
+            tools:ignore="VectorDrawableCompat" />
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="277dp"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/imageView12"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:background="@color/colorAccent"
+            android:text="Family"
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/imageView12"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@color/colorAccent"
+            app:srcCompat="@drawable/right"
+            tools:ignore="VectorDrawableCompat" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/secondrow"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/firstrow"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:id="@+id/friendsview"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@color/colorAccent"
+            app:srcCompat="@drawable/friends"
+            tools:ignore="VectorDrawableCompat" />
+
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="277dp"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/friendsview"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:background="@color/colorAccent"
+            android:text="Friends"
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:id="@+id/imagefriends_right"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/friendsview"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@color/colorAccent"
+            app:srcCompat="@drawable/right"
+            tools:ignore="VectorDrawableCompat" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/thirdrow"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/secondrow"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:id="@+id/Sweetmemoriesview"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@color/colorAccent"
+            app:srcCompat="@drawable/sweetmemories"
+            tools:ignore="VectorDrawableCompat" />
+
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="277dp"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/Sweetmemoriesview"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:background="@color/colorAccent"
+            android:text="Sweet Memories"
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:id="@+id/imagesweet_right"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/Sweetmemoriesview"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@color/colorAccent"
+            app:srcCompat="@drawable/right"
+            tools:ignore="VectorDrawableCompat" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/forthrow"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/thirdrow"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:id="@+id/wishview"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@color/colorAccent"
+            app:srcCompat="@drawable/wishlist"
+            tools:ignore="VectorDrawableCompat" />
+
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="277dp"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/wishview"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:background="@color/colorAccent"
+            android:text="My Plus 1 WishList"
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:id="@+id/imageswish_right"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/wishview"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@color/colorAccent"
+            app:srcCompat="@drawable/right"
+            tools:ignore="VectorDrawableCompat" />
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/fifthrow"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_below="@id/forthrow"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true">
+        <VideoView
+            android:id="@+id/videoview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:id="@+id/playvideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            android:onClick="videoplay"
+            android:text="PLAY"
+            android:layout_centerHorizontal="true"
+            android:background="#00ffffff"
+
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
